@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    color: #f45b69;
+    background-color: #F45B69;
+}
+
+p{
+    font-size: 13pt;
+}
+/* Header */
+.header-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #22181C;
+    background-image: url(DEU\ CERTO.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social{
+    margin-top: 1rem;
+    display: flex;
+}
+.social p{
+    background-color: #F45B69;
+    color: #22181C;
+    padding: 1rem 2rem;
+    border: 1px solid #F6E8EA;
+    min-width: 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.social p:hover{
+    background-color: #F6E8EA;
+    border: 1px solid #F45B69;
+    color: #22181C;
+}
+/* Cards */
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #22181C;
+    color: #F6E8EA;
+    background-image: url(fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 5px 5px #5a000273;
+}
+.card-text{
+    width: 40%;
+    letter-spacing: 1px;
+    color: #F6E8EA;
+    background-color: #22181C;
+    font-size: 25px;
+    border: 1px solid #22181C;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 10px 5px 5px #5a000273;
+}
+
+.text-true{
+    display: none;
+}
+
+.card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #22181C;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper h2{
+    font-size: 40px;
+    opacity: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p{
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    background-color: #F6E8EA;
+    padding: 5px;
+}
+
+#card0:hover{
+    filter: unset;
+    background-image: url(amorosa.jpg);
+}
+#card1:hover{
+    filter: unset;
+    background-image: url(artista.jpg);
+}
+#card2:hover{
+    filter: unset;
+    background-image: url(cabelo.jpg);
+}
+#card3:hover{
+    filter: unset;
+    background-image: url(carismática.jpg);
+}
+#card4:hover{
+    filter: unset;
+    background-image: url(companheira.jpg);
+}
+#card5:hover{
+    filter: unset;
+    background-image: url(corajosa.jpg);
+}
+#card6:hover{
+    filter: unset;
+    background-image: url(Cozinheira.jpg);
+}
+#card7:hover{
+    filter: unset;
+    background-image: url(cuidadosa.jpg);
+}
+#card8:hover{
+    filter: unset;
+    background-image: url(engraçada.jpg);
+}
+#card9:hover{
+    filter: unset;
+    background-image: url(estilosa.jpg);
+}
+#card10:hover{
+    filter: unset;
+    background-image: url(exemplo.jpg);
+}
+#card11:hover{
+    filter: unset;
+    background-image: url(fiel.jpg);
+}
+#card12:hover{
+    filter: unset;
+    background-image: url(forte.jpg);
+}
+#card13:hover{
+    filter: unset;
+    background-image: url(inteligente.jpg);
+}
+#card14:hover{
+    filter: unset;
+    background-image: url(filha.jpg);
+}
+#card15:hover{
+    filter: unset;
+    background-image: url(meiga.jpg);
+}
+#card16:hover{
+    filter: unset;
+    background-image: url(olhos.jpg);
+}
+#card17:hover{
+    filter: unset;
+    background-image: url(protetora.jpg);
+}
+#card18:hover{
+    filter: unset;
+    background-image: url(quadro.jpg);
+}
+#card19:hover{
+    filter: unset;
+    background-image: url(Sorriso.jpg);
+}
+#card20:hover{
+    filter: unset;
+    background-image: url(turista.jpg);
+}
+#card21:hover{
+    filter: unset;
+    background-image: url(perfeita.jpg);
+}
+
+
+
+.card:hover > .card-wrapper::before{
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.card:hover > .card-wrapper h2{
+    opacity: 1;
+    background-color: #5a000273;
+    font-size: 20px;
+    padding: 5px;
+    visibility: visible;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #22181C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f45b69;
+}
+a{
+    text-decoration: none;
+}
